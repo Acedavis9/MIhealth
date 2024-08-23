@@ -1,11 +1,7 @@
 
-Id {
-    display:inline;
+.main {
+    background-color:rgb(0, 255, 4);
 }
-.myClass {
-    color:red;
-    display:inline
-}
-li {
-    display:inline;
+.navbar {
+    background-color:red;
 }
