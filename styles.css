@@ -1,7 +1,29 @@
 
 .main {
     background-color:rgb(0, 255, 4);
+    width:27%;
+    height:400px;
+    float:left;
+    box-sizing: border-box;
+}
+.maintext {
+    padding: 25px;
 }
 .navbar {
     background-color:red;
+}
+.images {
+    background-color: aqua;
+    width: 280px;
+    border: 1px solid black;
+    padding:15px;
+    float:right;
+    box-sizing: border-box;
+    width:73%;
+    height:400px;
+}
+.container {
+    width: 100%;
+    background-color: blueviolet;
+    overflow: hidden;
 }
