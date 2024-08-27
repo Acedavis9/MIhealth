@@ -16,13 +16,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 .images {
-    background-color:#e0e0e0;
-    padding:15px;
-    float:right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: #e0e0e0;
+    padding: 15px;
+    height: 500px;
     box-sizing: border-box;
-    width:80%;
-    height:500px;
-    align-items: center;
 }
 section {
     
@@ -91,5 +91,54 @@ ul li a {
   h5 {
     font-family: "Lato", sans-serif;
     text-align-last: center;
-    font-style:bold;
+    font-style:bold
   }
+
+  .image-container {
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+}
+
+.image-container img {
+    display: block;
+    height: 90%;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.overlay img {
+    width: 50px; 
+    height: 50px; 
+}
+
+.imageoverlay {
+    position: absolute;
+    bottom: 20px;
+    right: -20px;
+    background-color: #8dc728;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+}
+.imageoverlay2 {
+    position: absolute;
+    bottom: 70px;
+    right: -20px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+}
